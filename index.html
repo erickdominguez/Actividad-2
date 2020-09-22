@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <form>
-        <label for="nombre">Nombre</label><br>
-        <input type="text", id="nombre" name="name"><br>
-        <label for="correo">Correo</label><br>
-        <input type="email", id="correo" name="correo"><br>
-        <label for="mensaje">Mensaje</label><br>
-        <input type="text", id="mensaje" name="mensaje"><br>
+
+    <form method="POST" action = "http://3.86.220.212/actividad?_dos.php" >
+        <label for="name">Nombre</label><br>
+        <input class="uk-input" type="text", id="name" name="name" required><br>
+        <label for="email">Correo</label><br>
+        <input class="uk-input" type="email", id="email" name="email" required><br>
+        <label for="message">Mensaje</label><br>
+        <input class="uk-input" type="textarea", id="message" name="message" required><br>
+        <input class="uk-input" type="submit">
     </form>
 </body>
 </html>
