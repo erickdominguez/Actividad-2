@@ -1,4 +1,19 @@
+body{
+    font: bolder;
+    font-size: 15pt;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
 
+.a{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    ;
+}
 .uk-input,
 .uk-select,
 .uk-textarea,
